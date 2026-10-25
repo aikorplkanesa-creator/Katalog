@@ -1,0 +1,1066 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#faf7f0">
+
+    <title>A.A. Motors | Premium Car Collection</title>
+    <meta name="description" content="Jelajahi koleksi mobil BMW, Honda, Suzuki, dan Mitsubishi di A.A. Motors.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <span class="logo-mark">AA.</span>
+
+            <span class="logo-text">
+                <strong>A.A. CARS</strong>
+                <small>PREMIUM CAR COLLECTION</small>
+            </span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#brands">Brands</a>
+            <a href="#bmw">BMW</a>
+            <a href="#honda">Honda</a>
+            <a href="#suzuki">Suzuki</a>
+            <a href="#mitsubishi">Mitsubishi</a>
+        </nav>
+
+        <button
+            type="button"
+            class="cart-button"
+            id="cartButton"
+            aria-label="Buka keranjang"
+        >
+            <span>Keranjang</span>
+            <span id="cartCount">0</span>
+        </button>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO / HOME
+        ========================== -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <span class="eyebrow">
+                    A.A. MOTORS — AUTOMOTIVE COLLECTION
+                </span>
+
+                <h1>
+                    Temukan mobil
+                    <span>pilihanmu.</span>
+                </h1>
+
+                <p>
+                    Jelajahi koleksi mobil pilihan dari berbagai merek
+                    ternama. Temukan model favoritmu dengan pengalaman
+                    katalog yang sederhana, elegan, dan nyaman.
+                </p>
+
+                <a href="#brands" class="primary-button">
+                    Jelajahi koleksi ↗
+                </a>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    Pilih merek. Temukan mobil. Kirim pesanan.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-car-image">
+
+                    <!-- GANTI DENGAN FOTO EVO MILIKMU -->
+                    <img
+                        src="EVO9.png"
+                        alt="Mitsubishi Lancer Evolution IX"
+                        class="evo-image"
+                    >
+
+                    <div class="hero-image-caption">
+                        <span>JDM LEGEND</span>
+
+                        <h2>Mitsubishi Lancer Evolution IX</h2>
+
+                        <p>
+                            Performance. Precision. Passion.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual-note">
+                    <span>01 / FEATURED COLLECTION</span>
+                    <span>A.A. MOTORS</span>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BRAND SELECTOR
+        ========================== -->
+        <section class="brands-section" id="brands">
+
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">
+                        EXPLORE OUR COLLECTION
+                    </span>
+
+                    <h2>
+                        Pilih merek <span>favoritmu.</span>
+                    </h2>
+                </div>
+
+                <p>Empat merek, berbagai pilihan mobil.</p>
+            </div>
+
+
+            <div class="brand-grid">
+
+                <!-- BMW -->
+                <a href="#bmw" class="brand-card">
+                    <div class="brand-logo">
+                        <img
+                            src="logo-bmw.png"
+                            alt="Logo resmi BMW"
+                        >
+                    </div>
+
+                    <h3>BMW</h3>
+
+                    <span class="brand-subtitle">
+                        Sheer Driving Pleasure
+                    </span>
+                </a>
+
+
+                <!-- HONDA -->
+                <a href="#honda" class="brand-card">
+                    <div class="brand-logo">
+                        <img
+                            src="honda.png"
+                            alt="Logo resmi Honda"
+                        >
+                    </div>
+
+                    <h3>Honda</h3>
+
+                    <span class="brand-subtitle">
+                        The Power of Dreams
+                    </span>
+                </a>
+
+
+                <!-- SUZUKI -->
+                <a href="#suzuki" class="brand-card">
+                    <div class="brand-logo">
+                        <img
+                            src="suzuki-logo.png"
+                            alt="Logo resmi Suzuki"
+                        >
+                    </div>
+
+                    <h3>Suzuki</h3>
+
+                    <span class="brand-subtitle">
+                        By Your Side
+                    </span>
+                </a>
+
+
+                <!-- MITSUBISHI -->
+                <a href="#mitsubishi" class="brand-card">
+                    <div class="brand-logo">
+                        <img
+                            src="logo.png"
+                            alt="Logo resmi Mitsubishi"
+                        >
+                    </div>
+
+                    <h3>Mitsubishi</h3>
+
+                    <span class="brand-subtitle">
+                        Drive Your Ambition
+                    </span>
+                </a>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             SEARCH
+        ========================== -->
+        <section class="search-section">
+            <div>
+                <span class="eyebrow">FIND YOUR CAR</span>
+                <h2>Cari mobil impianmu.</h2>
+                <p>
+                    Cari berdasarkan nama mobil atau mereknya.
+                </p>
+            </div>
+
+            <input
+                type="search"
+                id="searchInput"
+                class="search"
+                placeholder="Contoh: Civic, Jimny, BMW..."
+                aria-label="Cari mobil"
+            >
+        </section>
+
+
+        <!-- =========================
+             BMW CATALOG
+        ========================== -->
+        <section class="catalog-section" id="bmw">
+
+            <div class="catalog-heading">
+                <span class="eyebrow">SHEER DRIVING PLEASURE</span>
+                <h2>Koleksi BMW</h2>
+                <p>
+                    Pilihan mobil BMW dengan desain premium dan karakter sporty.
+                </p>
+            </div>
+
+            <div class="car-grid">
+
+                <!-- BMW 1 -->
+                <article class="car-card" data-car-id="BMW-M2">
+
+                    <div class="car-photo">
+                        <img
+                            src="BMW-M2.png"
+                            alt="BMW-M2"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">BMW 01</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">SPORT COUPE</span>
+                        <h3>BMW-M2</h3>
+
+                        <p>
+                            BMW M2 adalah mobil sport coupe dengan desain agresif, mesin bertenaga, dan handling lincah. Cocok untuk penggemar berkendara sporty dengan performa tinggi.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2015</span>
+                            <span>BMW</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="BMW-M2"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="BMW-M2"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- BMW 2 -->
+                <article class="car-card" data-car-id="BMW-M4">
+
+                    <div class="car-photo">
+                        <img
+                            src="BMW-M4.png"
+                            alt="BMW M4"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">BMW 02</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">SPORT COUPE</span>
+                        <h3>BMW-M4</h3>
+
+                        <p>
+                            BMW M4 adalah mobil sport coupe premium yang menawarkan performa mesin tinggi, akselerasi cepat, dan desain mewah yang moder.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2014</span>
+                            <span>BMW</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="BMW-M4"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="BMW-M4"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- BMW 3 -->
+                <article class="car-card" data-car-id="BMW-F30">
+
+                    <div class="car-photo">
+                        <img
+                            src="BMW-F30.png"
+                            alt="BMW-F30"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">BMW 03</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">SPORT SEDAN</span>
+                        <h3>BMW-F30</h3>
+
+                        <p>
+                          BMW F30 adalah sport sedan dari BMW Seri 3 yang memiliki desain elegan dan sporty, handling responsif, serta kenyamanan untuk penggunaan sehari-hari.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2011-2019</span>
+                            <span>BMW</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="BMW-F30"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="BMW-F30"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             HONDA CATALOG
+        ========================== -->
+        <section class="catalog-section" id="honda">
+
+            <div class="catalog-heading">
+                <span class="eyebrow">THE POWER OF DREAMS</span>
+                <h2>Koleksi Honda</h2>
+                <p>
+                    Pilihan Honda untuk kebutuhan harian dan perjalanan bersama keluarga.
+                </p>
+            </div>
+
+            <div class="car-grid">
+
+                <!-- HONDA 1 -->
+                <article class="car-card" data-car-id="CIVIC-TYPE R">
+
+                    <div class="car-photo">
+                        <img
+                            src="CIVIC-TYPE R.png"
+                            alt="CIVIC-TYPE R"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">HONDA 01</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Hot Hatch / Sport Compact</span>
+                        <h3>Hot Hatch / Sport Compact</h3>
+
+                        <p>
+                            Honda Civic Type R adalah mobil hot hatch berperforma tinggi dengan desain agresif, mesin turbo bertenaga, dan handling presisi.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 1997</span>
+                            <span>Honda</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="CIVIC-TYPE R"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="CIVIC-TYPE R"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- HONDA 2 -->
+                <article class="car-card" data-car-id="Honda BR-V">
+
+                    <div class="car-photo">
+                        <img
+                            src="Honda BR-V.png"
+                            alt="Honda BR-V"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">HONDA 02</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">LSUV</span>
+                        <h3>Honda BR-V</h3>
+
+                        <p>
+                            Honda BR-V adalah LSUV keluarga dengan desain modern, kabin tiga baris, dan kenyamanan untuk perjalanan sehari-hari maupun perjalanan jauh
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2015</span>
+                            <span>Honda</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="Honda BR-V"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="Honda BR-V"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- HONDA 3 -->
+                <article class="car-card" data-car-id="Honda NSX  Tribute">
+
+                    <div class="car-photo">
+                        <img
+                            src="Honda NSX  Tribute.png"
+                            alt="Honda Brio"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">HONDA 03</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Sport Coupe</span>
+                        <h3>Honda NSX Tribute</h3>
+
+                        <p>
+                            Honda NSX adalah mobil sport bermesin tengah dengan desain eksotis, aerodinamis, dan performa tinggi. Istilah Tribute dapat merujuk pada desain modifikasi yang terinspirasi dari NSX.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 1990–2005</span>
+                            <span>Honda</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="Honda NSX  Tribute"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="Honda NSX  Tribute"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             SUZUKI CATALOG
+        ========================== -->
+        <section class="catalog-section" id="suzuki">
+
+            <div class="catalog-heading">
+                <span class="eyebrow">BY YOUR SIDE</span>
+                <h2>Koleksi Suzuki</h2>
+                <p>
+                    Jelajahi pilihan Suzuki untuk kebutuhan harian,
+                    keluarga, dan petualangan.
+                </p>
+            </div>
+
+            <div class="car-grid">
+
+                <!-- SUZUKI 1 -->
+                <article class="car-card" data-car-id="swift">
+
+                    <div class="car-photo">
+                        <img
+                            src="swift.png"
+                            alt="swift"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">SUZUKI 01</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Hatchback</span>
+                        <h3>swift</h3>
+
+                        <p>
+                            Suzuki Swift adalah mobil hatchback kompak dengan desain sporty, handling lincah, dan ukuran praktis untuk penggunaan di perkotaan.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2004</span>
+                            <span>Suzuki</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="swift"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="swift"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- SUZUKI 2 -->
+                <article class="car-card" data-car-id="Baleno">
+
+                    <div class="car-photo">
+                        <img
+                            src="Baleno.png"
+                            alt="Suzuki XL7"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">SUZUKI 02</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Hatchback</span>
+                        <h3>Baleno </h3>
+
+                        <p>
+                            Suzuki Baleno adalah mobil hatchback dengan desain modern, kabin cukup luas, dan kenyamanan yang cocok untuk kebutuhan sehari-hari.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 1995</span>
+                            <span>Suzuki</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="Baleno"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="Baleno"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- SUZUKI 3 -->
+                <article class="car-card" data-car-id="ignis">
+
+                    <div class="car-photo">
+                        <img
+                            src="ignis.png"
+                            alt="Suzuki Ertiga"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">SUZUKI 03</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Compact Crossover / City Car </span>
+                        <h3>ignis </h3>
+
+                        <p>
+                            Suzuki Ignis adalah mobil kompak bergaya crossover dengan desain unik, ukuran praktis, dan ground clearance yang mendukung penggunaan di perkotaan.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2016–2025</span>
+                            <span>Suzuki</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="ignis"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="ignis"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             MITSUBISHI CATALOG
+        ========================== -->
+        <section class="catalog-section" id="mitsubishi">
+
+            <div class="catalog-heading">
+                <span class="eyebrow">DRIVE YOUR AMBITION</span>
+                <h2>Koleksi Mitsubishi</h2>
+                <p>
+                    Temukan SUV, mobil keluarga, dan kendaraan tangguh
+                    dari Mitsubishi.
+                </p>
+            </div>
+
+            <div class="car-grid">
+
+                <!-- MITSUBISHI 1 -->
+                <article class="car-card" data-car-id="Eclipse">
+
+                    <div class="car-photo">
+                        <img
+                            src="Eclipse.png"
+                            alt="Eclipse"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">MITSUBISHI 01</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Sport Compact Coupe </span>
+                        <h3>Eclipse</h3>
+
+                        <p>
+                            Mitsubishi Eclipse adalah mobil sport coupe dengan desain aerodinamis, tampilan sporty, dan karakter berkendara yang dinamis. Mobil ini tersedia dalam beberapa generasi dan pilihan mesin, termasuk varian turbo pada generasi awal.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 1989–2011</span>
+                            <span>Mitsubishi</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="Eclipse"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="Eclipse"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- MITSUBISHI 2 -->
+                <article class="car-card" data-car-id="DESTINATOR">
+
+                    <div class="car-photo">
+                        <img
+                            src="DESTINATOR.png"
+                            alt="Mitsubishi Xpander"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">MITSUBISHI 02</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">SUV keluarga</span>
+                        <h3>DESTINATOR </h3>
+
+                        <p>
+                           Mitsubishi Destinator adalah SUV keluarga modern dengan desain gagah, kabin tiga baris, dan mesin turbo yang dirancang untuk memberikan kenyamanan serta performa dalam perjalanan sehari-hari maupun jarak jauh
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2025</span>
+                            <span>Mitsubishi</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="DESTINATOR"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="DESTINATOR"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- MITSUBISHI 3 -->
+                <article class="car-card" data-car-id="EVO9">
+
+                    <div class="car-photo">
+                        <img
+                            src="EVO9.png"
+                            alt="Mitsubishi Triton"
+                            loading="lazy"
+                        >
+
+                        <span class="car-number">MITSUBISHI 03</span>
+                    </div>
+
+                    <div class="car-info">
+                        <span class="tag">Sport Sedan / Rally-Inspired Performance Sedan </span>
+                        <h3>EVO9 </h3>
+
+                        <p>
+                            Mitsubishi Lancer Evolution IX adalah sport sedan berperforma tinggi dengan mesin 2.0L turbo, sistem penggerak empat roda (AWD), dan desain agresif yang terinspirasi dari dunia reli. Mobil ini dikenal karena akselerasi kuat dan handling yang responsif.
+                        </p>
+
+                        <div class="car-meta">
+                            <span>Tahun: 2005–2007</span>
+                            <span>Mitsubishi</span>
+                        </div>
+
+                        <div class="car-actions">
+                            <button
+                                type="button"
+                                class="details-button"
+                                data-detail="EVO9"
+                            >
+                                Lihat detail
+                            </button>
+
+                            <button
+                                type="button"
+                                class="add-cart-button"
+                                data-add-cart="EVO9"
+                            >
+                                + Keranjang
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section class="about-section" id="about">
+
+            <span class="eyebrow">ABOUT A.A. MOTORS</span>
+
+            <h2>
+                Find your next
+                <span>favorite car.</span>
+            </h2>
+
+            <div class="gak-lah">
+                <h2 class="gk">TERIMA KASIH SUDAH MEMBELI MOBIL DISINI</h2>
+            </div>
+
+            <p>
+                A.A. Motors menghadirkan katalog mobil dari berbagai merek
+                dalam satu tempat. Jelajahi koleksi, periksa detail mobil,
+                dan tambahkan pilihanmu ke keranjang dengan mudah.
+            </p>
+
+            <a href="#brands" class="secondary-button">
+                Jelajahi merek →
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">
+            <span class="logo-mark">AA.</span>
+
+            <span class="logo-text">
+                <strong>A.A. CARS</strong>
+                <small>PREMIUM CAR COLLECTION</small>
+            </span>
+        </a>
+
+        <p>Temukan mobil pilihanmu bersama A.A. Motors.</p>
+
+        <span class="copyright">
+            © 2026 A.A. Motors. All rights reserved.
+        </span>
+
+    </footer>
+
+
+    <!-- =========================
+         CART OVERLAY
+    ========================== -->
+    <div class="overlay" id="cartOverlay"></div>
+
+    <aside
+        class="cart-drawer"
+        id="cartDrawer"
+        aria-label="Keranjang pemesanan"
+    >
+
+        <div class="drawer-header">
+            <div>
+                <span class="eyebrow">YOUR SELECTION</span>
+                <h2>Keranjang</h2>
+            </div>
+
+            <button
+                type="button"
+                class="icon-button"
+                id="closeCartButton"
+                aria-label="Tutup keranjang"
+            >
+                ×
+            </button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-message">
+                Keranjangmu masih kosong.
+            </p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total mobil dipilih</span>
+                <strong id="cartTotal">0 mobil</strong>
+            </div>
+
+            <button
+                type="button"
+                class="primary-button full-button"
+                id="checkoutButton"
+            >
+                Lanjutkan pesanan →
+            </button>
+
+            <button
+                type="button"
+                class="text-button"
+                id="clearCartButton"
+            >
+                Kosongkan keranjang
+            </button>
+        </div>
+
+    </aside>
+
+
+    <!-- =========================
+         CAR DETAIL MODAL
+    ========================== -->
+    <div
+        class="modal-overlay"
+        id="detailModal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Detail mobil"
+    >
+
+        <div class="modal-card">
+
+            <button
+                type="button"
+                class="icon-button modal-close"
+                id="closeDetailButton"
+                aria-label="Tutup detail"
+            >
+                ×
+            </button>
+
+            <div id="detailContent"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         CHECKOUT MODAL
+    ========================== -->
+    <div
+        class="modal-overlay"
+        id="checkoutModal"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Pilihan checkout"
+    >
+
+        <div class="modal-card checkout-card">
+
+            <button
+                type="button"
+                class="icon-button modal-close"
+                id="closeCheckoutButton"
+                aria-label="Tutup checkout"
+            >
+                ×
+            </button>
+
+            <span class="eyebrow">ORDER OPTIONS</span>
+
+            <h2>Konfirmasi pesanan</h2>
+
+            <p>
+                Pilih apakah kamu ingin melanjutkan pesanan
+                melalui WhatsApp atau membatalkannya.
+            </p>
+
+            <button
+                type="button"
+                class="primary-button full-button"
+                id="whatsappButton"
+            >
+                Pesan melalui WhatsApp ↗
+            </button>
+
+            <button
+                type="button"
+                class="secondary-button full-button"
+                id="cancelOrderButton"
+            >
+                Batalkan pesanan
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
