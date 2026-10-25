@@ -1597,3 +1597,145 @@ img {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* FIX RESPONSIVE MOBILE */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: clip;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    max-width: 100%;
+    min-width: 0;
+}
+
+/* Konten utama */
+.hero,
+.brands-section,
+.search-section,
+.catalog-section,
+.about-section,
+.footer {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.hero {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.hero-content,
+.hero-visual,
+.car-card {
+    min-width: 0;
+}
+
+.car-grid {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+/* Tombol */
+button,
+a {
+    touch-action: manipulation;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Modal detail dan checkout */
+.modal,
+.modal-overlay {
+    padding: 12px;
+}
+
+.modal-card {
+    width: 100%;
+    max-width: 620px;
+    max-height: 90vh;
+    max-height: 90dvh;
+    overflow-y: auto;
+    margin-inline: auto;
+}
+
+.cart-drawer {
+    width: min(100%, 420px);
+    max-width: 100%;
+    max-height: 100dvh;
+    overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        padding-inline: 16px;
+    }
+
+    .nav-links {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .nav-links a {
+        flex-shrink: 0;
+    }
+
+    .hero,
+    .catalog-section,
+    .about-section,
+    .footer {
+        padding-inline: 16px;
+    }
+
+    .search-section {
+        padding-inline: 16px;
+    }
+
+    .search,
+    .full-button {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .car-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .car-actions button {
+        flex: 1 1 120px;
+        min-width: 0;
+    }
+
+    .modal-card {
+        padding: 18px;
+    }
+}
